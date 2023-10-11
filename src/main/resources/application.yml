@@ -1,0 +1,9 @@
+server:
+  servlet:
+    context-path: /api/v1/restaurant
+  port: 9080
+spring:
+  application:
+    name: restaurant
+  profiles:
+    active: dev
